@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: hsl(0, 0%, 90%);
+  border: 1px solid hsl(0, 0%, 70%);
+  outline: none;
+  cursor: pointer;
+  padding: .5em 1em;
+  border-radius: .3em;
+}
+
+.btn:hover, .btn:focus {
+  background-color: hsl(0, 0%, 80%);
+  box-shadow: 0 0 5px 0 hsl(0, 0%, 70%);
+}
+
+.btn.btn-primary{
+  background-color: #66E0FF;
+  border-color: #337080;
+  color: white;
+}
+
+.btn.btn-primary:hover, .btn.btn-primary:focus {
+  background-color: #B3F0FF;
+  box-shadow: 0 0 5px 0 #337080;
+}
+
+.btn.btn-accent{
+  background-color: #2E4B99;
+  border-color: #7A91CC;
+  color: white;
+}
+
+.btn.btn-accent:hover, .btn.btn-accent:focus {
+  background-color: #B3F0FF;
+  box-shadow: 0 0 5px 0 #337080;
+}
+
+.btn.btn-danger{
+  background-color: #FF1801;
+  border-color: #802E26;
+  color: #FFDB19;
+}
+
+.btn.btn-danger:hover, .btn.btn-danger:focus {
+  background-color: #FF540A;
+  box-shadow: 0 0 10px 0 #FFDB19;
+}
+
+.btn.btn-large{
+  font-size: 1.25rem;
+}
+
+.btn.btn-small {
+  font-size: .75rem;
+}
+
+.btn.btn-pill{
+  /* using a large pixel # allows for a pill shape versus an oval with %s */
+  border-radius: 10000px;
+}
+
+.btn.btn-custom {
+  background: linear-gradient(to right, #77FF85,#85FFD6);
+  color: #E985FF;
+  border-color: #1E4021;
+}
+
+.btn.btn-custom:hover, .btn.btn-custom:focus {
+  background: linear-gradient(to right, #4BCCA1,#B54BCC);
+  border-color: black;
+  color: #77FF85;
+  box-shadow: 0 0 5px 0 black;
+}
